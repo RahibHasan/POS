@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect,HttpResponse
 # Create your views here.
 def index(request):
-	return render(request,'index.html',{'title':'Hasan','head_breadcumb':'Dashboard','href':'/home'})
+	return render(request,'index.html',{'title':'Dashboard','head_breadcumb':'Dashboard','href':'dashboard'})
